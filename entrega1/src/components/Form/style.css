@@ -1,0 +1,104 @@
+.Div-insert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.Div-insert button {
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 314px;
+  height: 48px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.Div-insert h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+}
+
+.Div-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.Div-description span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #868e96;
+}
+
+.Div-description input {
+  align-items: center;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 314px;
+  height: 52, 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #868e96;
+}
+
+.Section-value {
+  display: flex;
+  flex-direction: row;
+}
+
+.Section-value input {
+  background: #f8f9fa;
+  padding: 0px 16px;
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 128px;
+  height: 48px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #868e96;
+}
+
+.Section-value select {
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  padding: 0px 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 150px;
+  height: 48px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 26px;
+  color: #868e96;
+}
