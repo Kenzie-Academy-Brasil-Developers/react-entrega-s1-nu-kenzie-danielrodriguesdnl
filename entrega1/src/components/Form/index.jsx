@@ -3,13 +3,13 @@ import "./style.css";
 
 const Form = ({ listTransactions, setListTransactions }) => {
   const [transaction, setTransaction] = useState({
-    description: "Digite aqui sua descrição",
+    description: "",
     type: "Defaut",
-    value: 0,
+    value: "",
   });
 
   const addTransaction = () => {
-    if ((transaction.type = "Saída")) {
+    if (transaction.type === "Saída") {
       transaction.value = -Math.abs(transaction.value);
     }
     setListTransactions([...listTransactions, transaction]);
@@ -25,6 +25,7 @@ const Form = ({ listTransactions, setListTransactions }) => {
           onChange={(event) =>
             setTransaction({ ...transaction, description: event.target.value })
           }
+          placeholder="Digite aqui sua descrição"
         />
         <span>Ex:Compra de roupas</span>
       </div>
@@ -34,7 +35,7 @@ const Form = ({ listTransactions, setListTransactions }) => {
           <h3>Valor</h3>
           <input
             className="Input-value"
-            value={transaction.value}
+            value={transaction.value || 0}
             onChange={(event) =>
               setTransaction({
                 ...transaction,

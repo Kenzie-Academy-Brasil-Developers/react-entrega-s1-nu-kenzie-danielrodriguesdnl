@@ -49,9 +49,10 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   width: 100%;
+  font-size: 16px;
 }
 
 .Div-body {
@@ -59,12 +60,18 @@ header {
   flex-direction: column;
 }
 
+.Div-insert {
+  width: 100%;
+  max-width: 363px;
+}
+
 .Div-TotalValue {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  width: 363px;
+  width: 100%;
+  max-width: 363px;
   height: 96px;
   background: #ffffff;
   border: 1px solid #e9ecef;
@@ -113,8 +120,11 @@ header {
 .Div-headerTitle {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
 }
 
 .Div-headerTitle h2 {
@@ -129,7 +139,8 @@ header {
 .Div-headerButtons {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 230px;
   align-items: center;
   margin: 10px;
 }
@@ -182,10 +193,20 @@ header {
   color: #868e96;
 }
 
+.Div-Cards {
+  margin: 0 auto;
+  margin-top: 29px;
+  width: 100%;
+  max-width: 560px;
+}
+
 .Card-Entrada {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 560px;
+  padding: 0.5rem 1rem;
   align-items: center;
   border-left: 4px solid #03b898;
   border-radius: 4px 0px 0px 4px;
@@ -194,7 +215,10 @@ header {
 .Card-Saida {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 560px;
+  padding: 0.5rem 1rem;
   align-items: center;
   border-left: 4px solid #e9ecef;
   border-radius: 4px 0px 0px 4px;
